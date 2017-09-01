@@ -1,0 +1,38 @@
+Fri Sep  1 02:17:51 2017
+ velveth ZN-1.21 21 -fasta -long winky/test/data/ZN-1_ZNif1__2017-06-07_B01.fastq winky/test/data/ZN-1_ZNir1__2017-06-07_E01.fastq winky/test/data/ZN-1_pCAGGSf__2017-05-31_A06.fastq winky/test/data/ZN-1_pCAGGSr__2017-05-31_G03.fastq
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Fri Sep  1 02:17:57 2017
+ velveth ZN-1.21 21 -fastq -long winky/test/data/ZN-1_ZNif1__2017-06-07_B01.fastq winky/test/data/ZN-1_ZNir1__2017-06-07_E01.fastq winky/test/data/ZN-1_pCAGGSf__2017-05-31_A06.fastq winky/test/data/ZN-1_pCAGGSr__2017-05-31_G03.fastq
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Fri Sep  1 02:19:05 2017
+ velvetg ZN-1.21 -exp_cov auto
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Median coverage depth = 0.000000
+Final graph has 1 nodes and n50 of 2529, max 2529, total 2529, using 4/4 reads

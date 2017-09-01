@@ -6,7 +6,7 @@ import click
 @click.command(short_help='Convert Sanger sequencing format (ABI) to FASTQ')
 @click.argument('filename')
 @click.option('--verbose', is_flag=True, help="Show progress messages")
-def abi_to_fastq(filename, verbose):
+def abi_to_fastq(filename, verbose=True):
     # Open the Sanger sequencing trace
     if verbose:
         click.echo(f'Reading "{filename}" ...')
@@ -19,8 +19,8 @@ def abi_to_fastq(filename, verbose):
     trimmed = AbiIO._abi_trim(record)
 
     if verbose:
-        click.echo('\tBefore trimming:', len(record),
-                   '\tAfter trimming:', len(trimmed))
+        click.echo('\tBefore trimming: ' + str(len(record)) +
+                   '\tAfter trimming: ' + str(len(trimmed)))
 
     # Write the trimmed file to fastq
     fastq = filename.replace('.ab1', '.fastq')

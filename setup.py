@@ -16,5 +16,6 @@ setup(
     packages=['winky'],
     install_requires=required,
     long_description='See ' + 'https://github.com/czbiohub/winky',
-    license='MIT'
+    license='MIT',
+    entry_points={"console_scripts": ['winky = winky.cli:cli']}
 )
