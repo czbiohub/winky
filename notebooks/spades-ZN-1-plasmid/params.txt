@@ -1,0 +1,36 @@
+Command line: /Users/olgabot/anaconda3/envs/winky/bin/spades.py	--cov-cutoff	off	--debug	--plasmid	--12	/Users/olgabot/code/winky/winky/test/data/ZN-1-concatenated.fastq	-o	/Users/olgabot/code/winky/notebooks/spades-ZN-1-plasmid	
+
+System information:
+  SPAdes version: 3.11.0
+  Python version: 3.5.2
+  OS: Darwin-16.7.0-x86_64-i386-64bit
+
+Output dir: /Users/olgabot/code/winky/notebooks/spades-ZN-1-plasmid
+Mode: read error correction and assembling
+Debug mode is turned ON
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: ['/Users/olgabot/code/winky/winky/test/data/ZN-1-concatenated.fastq']
+      single reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed (with gzip)
+Assembly parameters:
+  k: automatic selection based on read length
+  Plasmid mode is turned ON
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /Users/olgabot/code/winky/notebooks/spades-ZN-1-plasmid/tmp
+  Threads: 16
+  Memory limit (in Gb): 250
+

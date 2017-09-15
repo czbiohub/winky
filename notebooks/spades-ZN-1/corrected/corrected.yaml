@@ -1,0 +1,8 @@
+- "left reads":
+  - "/Users/olgabot/code/winky/notebooks/spades-ZN-1/corrected/ZN-1-concatenated_1.00.0_0.cor.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/olgabot/code/winky/notebooks/spades-ZN-1/corrected/ZN-1-concatenated_2.00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/Users/olgabot/code/winky/notebooks/spades-ZN-1/corrected/ZN-1-concatenated__unpaired.00.0_0.cor.fastq.gz"
+  "type": "paired-end"

@@ -1,0 +1,6 @@
+- "left reads":
+  - "/Users/olgabot/code/winky/notebooks/spades-ZN-1/split_input/ZN-1-concatenated_1.fastq"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/olgabot/code/winky/notebooks/spades-ZN-1/split_input/ZN-1-concatenated_2.fastq"
+  "type": "paired-end"

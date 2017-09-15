@@ -1,0 +1,36 @@
+Fri Sep 15 15:17:20 2017
+ /Users/olgabot/anaconda3/envs/winky/bin/velveth ZN-1.21 21 -fasta -long test/data/ZN-1*.fastq
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Fri Sep 15 15:17:29 2017
+ /Users/olgabot/anaconda3/envs/winky/bin/velveth ZN-1.21 21 -fasta -long ../test/data/ZN-1*.fastq
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
+Fri Sep 15 15:19:50 2017
+ /Users/olgabot/anaconda3/envs/winky/bin/velvetg ZN-1.21 -exp_cov auto
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 191
+OPENMP
+LONGSEQUENCES
+
